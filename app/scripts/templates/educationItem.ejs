@@ -1,0 +1,29 @@
+<div class="col-md-4" data-scroll-reveal="enter bottom move 100px, after 0.3s">
+	<h4>
+		<div class="name"><%= name %></div>
+		<small><div class="time"><%= time %></div></small>
+	</h4>
+</div>
+<div class="col-md-8" data-scroll-reveal="enter bottom move 100px, after 0.3s">
+	<div class="title"><strong><%= title %></strong></div>
+	<div class="description"><%= description %></div>
+	<% if(projects) {%>
+		<ul class="project-list hidden-phone">
+			<%for(var i=0; i < projects.length; i++) { %>
+				<li class="project">
+					<div class="project-description">
+						<strong class="project-name bold"><%= projects[i].name %> - </strong>
+						<%= projects[i].description %></div>
+					<div class="project-mentor">
+						Mentor: <a href="<%= projects[i].mentorLink %>" target="_blank"><span class="glyphicon glyphicon-link"></span> <%= projects[i].mentor %></a>
+					</div>
+				</li>
+			<% }%>
+		</ul>
+	<% } %>
+	<div class="links">
+		<a href="<%= locationLink %>" target="_blank"><span class="glyphicon glyphicon-map-marker"></span> <%= location %></a> | 
+		<a href="<%= websiteLink %>" target="_blank"><span class="glyphicon glyphicon-link"></span> <%= website %></a>
+	</div>
+</div>
+

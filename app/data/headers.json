@@ -1,0 +1,25 @@
+[{
+	"name": "Krka",
+	"image": "krka.jpg",
+	"description": ""
+}, {
+	"name": "Plitvicka Jezera",
+	"image": "plitvice.jpg",
+	"description": ""
+}, {
+	"name": "Sljeme",
+	"image": "sljeme.jpg",
+	"description": ""
+}, {
+	"name": "Kornati",
+	"image": "kornati.jpg",
+	"description": ""
+}, {
+	"name": "Kaprije",
+	"image": "kaprije.jpg",
+	"description": ""
+}, {
+	"name": "Dubrovnik",
+	"image": "dubrovnik.jpg",
+	"description": ""
+}]

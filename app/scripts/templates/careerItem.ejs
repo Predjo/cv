@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="col-lg-4 col-md-4" data-scroll-reveal="enter bottom move 100px, after 0.3s">
+		<h4>
+			<div class="name"><%= employer %></div>
+			<small><div class="time"><%= time %></div></small>
+		</h4>
+	</div>
+	<div class="col-lg-8 col-md-8" data-scroll-reveal="enter bottom move 100px, after 0.3s">
+		<div class="title"><strong><%= name %></strong></div>
+		<div class="description"><%= description %></div>
+
+		<div class="links">
+			<a href="<%= locationLink %>" target="_blank"><span class="glyphicon glyphicon-map-marker"></span>  <%= location %> </a> | 
+			<a href="<%= employerLink %>" target="_blank"><span class="glyphicon glyphicon-link"></span> <%= employer %></a>
+		</div>
+	</div>
+</div>

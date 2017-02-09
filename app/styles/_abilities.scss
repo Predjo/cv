@@ -1,0 +1,81 @@
+#abilities-section{
+	width: 100%;
+	background-color: #FAFAFA;
+	background: url('../images/oddTexture.png');
+	position: relative;
+	z-index: 5;
+	padding-bottom: 50px;
+
+	h3{
+		margin-bottom: 34px;
+		font-size: 32px;
+	}
+
+	.abilities-item-list-wrap{
+
+		.abilities-item{
+			width: 100%;
+			@include transform(translate3d(0,0,0));
+		}
+
+		.skill-grade{
+			font-size: 10px;
+			font-size: 10px;
+			color: #A29D9D;
+			position: absolute;
+			bottom: 15px;
+			right: 12px;
+		}
+
+		.ability-category-abilities{
+			width: 100%;
+		}
+		
+		.skill-name{
+			/*transition: all 0.3s ease;*/
+			font-size: 16px;
+
+				.progress-wrap{
+					position: relative;
+					.progress{
+						height: 3px;
+						margin-right: 20px;
+						margin-top: 5px;
+						
+
+						.progress-bar{
+							background-color: #DA0808;
+							opacity: 0.65;
+
+							@include transition(all 0s ease 0s);
+							@include filter-gradient(#890000, #da0808, horizontal); // IE6-9
+							@include background-image(linear-gradient(left, #890000 0%,#890000 13%,#aa0000 23%,#c10003 32%,#da0808 100%));
+							
+
+							&.transition{
+								@include transition(all 0.5s ease);
+							}
+						}
+					}
+				}
+				
+				.skill-desc{
+					color: #A7A7A7;
+					font-size: 12px;
+					font-weight: normal;
+				}
+
+				&:hover{
+					background-color: #F8F8F8;
+					border-radius: 4px;
+				}
+		}
+
+		.skill-desc{
+			color: #A7A7A7;
+			font-size: 10px;
+		}
+	}	
+
+		
+}

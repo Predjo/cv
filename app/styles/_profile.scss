@@ -1,0 +1,66 @@
+#profile-section{
+	padding-top: 20px;
+	width: 100%;
+	background-color: white;
+	position: relative;
+	z-index: 5;
+	padding-bottom: 50px;
+
+	.profile-data-wrap{
+
+		max-width: 1170px;
+		margin: 0 auto;
+
+		.profile-row{
+			margin-bottom: 20px;
+		}
+
+		.profile-text{
+			text-align: center;
+			font-size: 20px;
+			color: #8B8B8B;
+			padding-top: 25px;
+			font-family: 'Merriweather',serif;
+			margin-bottom: 20px;
+		}
+
+		.profile-share{
+			margin-top: 20px;
+			position: relative;
+
+			.likeButton{
+				position: absolute;
+				left: 47px;
+				width: 50px;
+			}
+
+			.shareText{
+				position: absolute;
+				left: 100px;
+			}
+		}
+
+		.profile-age, .profile-from {
+			margin-bottom: 5px;
+			font-size: 16px; 
+		}
+
+		.profile-aboutme{
+			color: #8B8B8B;
+		}
+		
+		.profile-pic{
+
+			img{
+				max-height: 300px;
+				width: 100%;
+				max-width: 218px;
+				border-radius: 100px;
+				border: 1px solid #eee;
+				padding: 3px;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+}

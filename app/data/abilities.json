@@ -1,0 +1,206 @@
+[{
+	"category": "Programing languages",
+	"skills": [{
+		"name": "HTML",
+		"grade": 5,
+		"how": "basic course at the University, multiple web design projects and multiple student jobs"
+	}, {
+		"name": "CSS",
+		"grade": 5,
+		"how": "basic course at the University, multiple web design projects and multiple student jobs"
+	}, {
+		"name": "JavaScript",
+		"grade": 5,
+		"how": "multiple web design projects and part of multiple student jobs"
+	}, {
+		"name": "JSON",
+		"grade": 5,
+		"how": "multiple web and University projects"
+	}, {
+		"name": "XML",
+		"grade": 5,
+		"how": "multiple projects at the University"
+	}, {
+		"name": "PHP",
+		"grade": 5,
+		"how": "basic course at the University, multiple projects at the University)"
+	}, {
+		"name": "SQL",
+		"grade": 5,
+		"how": "multiple projects and courses at the University"
+	}, {
+		"name": "Java",
+		"grade": 4,
+		"how": "multiple projects at the University and part of student jobs"
+	}, {
+		"name": "C#",
+		"grade": 4,
+		"how": "multiple projects at the University"
+	}, {
+		"name": "Python",
+		"grade": 3,
+		"how": "multiple projects at the University"
+	}, {
+		"name": "Bash",
+		"grade": 3,
+		"how": "basic courses at the University"
+	}, {
+		"name": "Pascal",
+		"grade": 3,
+		"how": "basic courses at the High School"
+	}, {
+		"name": "C",
+		"grade": 3,
+		"how": "basic courses at the University"
+	}, {
+		"name": "Perl",
+		"grade": 2,
+		"how": "basic courses at the University"
+	}]
+}, {
+	"category": "Frameworks & Libraries",
+	"skills": [
+	{
+		"name": "React",
+		"grade": 5,
+		"how": "everyday use"
+	},	
+	{
+		"name": "Flux",
+		"grade": 5,
+		"how": "everyday use"
+	},
+	{
+		"name": "jQuery",
+		"grade": 5,
+		"how": "almost every web development and design project"
+	}, {
+		"name": "jQuery UI",
+		"grade": 5,
+		"how": "most new web design projects"
+	}, {
+		"name": "Backbone & Marionette",
+		"grade": 5,
+		"how": "most important part of Master Theises and this project"
+	}, {
+		"name": "Bootstrap",
+		"grade": 5,
+		"how": "almost every web development and design project"
+	}, {
+		"name": "AngularJS",
+		"grade": 3,
+		"how": "few basic online tutorials and practice projects"
+	}, {
+		"name": "SCSS",
+		"grade": 5,
+		"how": "everyday use"
+	}]
+}, {
+	"category": "Tools",
+	"skills": [{
+		"name": "Sublime Text",
+		"grade": 5,
+		"how": "everyday use, main scripting tool"
+	}, {
+		"name": "Eclipse",
+		"grade": 4,
+		"how": "used a lot for Java coding"
+	}, {
+		"name": "Photoshop",
+		"grade": 4,
+		"how": "lots of online tutorials and projects"
+	}, {
+		"name": "Unity3D",
+		"grade": 4,
+		"how": "use in game design projects"
+	}, {
+		"name": "Blender",
+		"grade": 3,
+		"how": "multiple models for 3D game projects"
+	}, {
+		"name": "NetBeans",
+		"grade": 2,
+		"how": "few projects at the University"
+	}, {
+		"name": "Visual Studio",
+		"grade": 4,
+		"how": "in use with every C & C# project"
+	}, {
+		"name": "Notepad++",
+		"grade": 5,
+		"how": "everyday use"
+	}, {
+		"name": "Gimp",
+		"grade": 3,
+		"how": "used when Photoshop isn't avaliable"
+	}, {
+		"name": "Microsoft Office",
+		"grade": 5,
+		"how": "everyday use"
+	}, {
+		"name": "Git",
+		"grade": 5,
+		"how": "everyday use"
+	}]
+}, {
+	"category": "Operating systems",
+	"skills": [{
+		"name": "Android OS",
+		"grade": 4,
+		"how": "part of projects at the University and multiple student jobs"
+	}, {
+		"name": "Windows OS",
+		"grade": 5,
+		"how": "everyday use"
+	}, {
+		"name": "Linux OS",
+		"grade": 5,
+		"how": "everyday use"
+	}, {
+		"name": "Mac OS",
+		"grade": 4,
+		"how": "everyday use"
+	}]
+}, {
+	"category": "Languages",
+	"skills": [{
+		"name": "Croatian",
+		"grade": 5,
+		"how": "mother tongue"
+	}, {
+		"name": "English",
+		"grade": 5,
+		"how": "everyday use"
+	}, {
+		"name": "German",
+		"grade": 2,
+		"how": "basic understanding"
+	}]
+}, {
+	"category": "Other",
+	"skills": [{
+		"name": "Leadership",
+		"grade": 5,
+		"how": "a year as a leader of an IT team in eSTUDENT student organisation, responsible for 10 people, also as a leader of multiple project teams at the University of Zagreb"
+	}, {
+		"name": "Communication skills",
+		"grade": 5,
+		"how": "acquired by being a mentor and a guide for Erasmus students that came from foreign countries to Zagreb during last 3 years. Part of eSTUDENT student mentorship program"
+	}, {
+		"name": "Quick learner",
+		"grade": 5,
+		"how": "able to acquire programming skills pretty fast"
+	}, {
+		"name": "Teamwork",
+		"grade": 5,
+		"how": "acquired by doing multiple team projects at the University"
+	}, {
+		"name": "Working under pressure",
+		"grade": 5,
+		"how": "successfully finishing multiple university projects very close to deadline"
+	}, {
+		"name": "Public speaking",
+		"grade": 4,
+		"how": "honorary speaker at the Ericsson Summer Camp 2013 award ceremony"
+	}]
+}]

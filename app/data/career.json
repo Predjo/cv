@@ -1,0 +1,41 @@
+[{
+	"name": "Summer Camp 2013",
+	"description": "Experience in working in a professional environment. Work on IPTV projects and design of IPTV applications.",
+	"time": "Jul 2013 - Sep 2013",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Ericsson+Nikola+Tesla/@45.803013,15.9456,17z/data=!4m2!3m1!1s0x0:0xc221891b9a55611e",
+	"employer": "Ericsson Nikola Tesla d.d.",
+	"employerLink": "http://www.ericsson.com/hr"
+}, {
+	"name": "Student Job",
+	"description": "Native Android application development with high focus on Google services and GCM push messages. Also Java server application powered by Jersey REST framework.",
+	"time": "Nov 2013 - Dec 2013",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Ericsson+Nikola+Tesla/@45.803013,15.9456,17z/data=!4m2!3m1!1s0x0:0xc221891b9a55611e",
+	"employer": "Ericsson Nikola Tesla d.d.",
+	"employerLink": "http://www.ericsson.com/hr"
+}, {
+	"name": "Student Job",
+	"description": "Creating of versioning software for organizing and storage of management information base (MIB) files. Consisting of designing MySQL database and PHP import and versioning scripts.",
+	"time": "Mar 2014 - Apr 2014",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Ericsson+Nikola+Tesla/@45.803013,15.9456,17z/data=!4m2!3m1!1s0x0:0xc221891b9a55611e",
+	"employer": "Ericsson Nikola Tesla d.d.",
+	"employerLink": "http://www.ericsson.com/hr"
+}, {
+	"name": "Student Job",
+	"description": "Designing Phonegap mobile application with backend server and GCM push message functionality. Biggest challenge was achieving look and feel of Ericsson applications.",
+	"time": "Apr 2014 - Jun 2014",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Ericsson+Nikola+Tesla/@45.803013,15.9456,17z/data=!4m2!3m1!1s0x0:0xc221891b9a55611e",
+	"employer": "Ericsson Nikola Tesla d.d.",
+	"employerLink": "http://www.ericsson.com/hr"
+}, {
+	"name": "Frontend Web developer / System Administrator",
+	"description": "Frontend web development with new tehnologies like React and Flux. System administration and performance testing. Past: Backend development in PHP Zend framework.",
+	"time": "Aug 2014 - now",
+	"location": "New York, USA",
+	"locationLink": "https://www.google.com/maps/place/10+E+40th+St,+New+York,+NY+10016/@40.7337577,-73.9971987,13.75z/data=!4m5!3m4!1s0x89c25900f2007f6d:0x96a564f8ea20f23b!8m2!3d40.7516462!4d-73.9812365?hl=en",
+	"employer": "Arazoo",
+	"employerLink": "http://www.arazoo.com"
+}]

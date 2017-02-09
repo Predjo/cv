@@ -1,0 +1,35 @@
+<h3 ><%= category %></h3>
+<div class="container ability-category-abilities">
+	<%for(var i=0; i < skills.length; i=i+2) { %>
+	<div class="row-wrapper">
+		<div class="row" data-scroll-reveal="after 0.6s, enter bottom ease-in-out 100px">
+			<div class="col-md-6 skill-name" >
+				<strong><%= skills[i].name %></strong> <span class="skill-desc">- <%= skills[i].how %></span>
+				<div class="progress-wrap">
+					<div class="progress">
+					  <div class="progress-striped progress-bar active"  role="progressbar" aria-valuenow="<%= skills[i].grade %>" aria-valuemin="0" aria-valuemax="5" style="width: <%= skills[i].grade/5*100 %>%">
+					    
+					  </div>
+					</div>
+				</div>
+				<span class="skill-grade"><%= skills[i].grade %>/5</span>
+			</div>
+			<div class="col-md-6 skill-name">
+				<%if(skills[i+1]) { %>
+				<strong><%= skills[i+1].name %></strong> <span class="skill-desc">- <%= skills[i+1].how %></span>
+				<div class="progress-wrap">
+					<div class="progress">
+					  <div class="progress-striped progress-bar active"  role="progressbar" aria-valuenow="<%= skills[i+1].grade %>" aria-valuemin="0" aria-valuemax="5" style="width: <%= skills[i+1].grade/5*100 %>%">
+					    
+					  </div>
+					</div>
+				</div>
+				<span class="skill-grade"><%= skills[i+1].grade %>/5</span>				
+				<%}%>
+			</div>
+		</div>
+	</div>	
+	<%}%>
+</div>
+<div class="hr"></div>
+

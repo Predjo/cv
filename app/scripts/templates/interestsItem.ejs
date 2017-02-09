@@ -1,0 +1,18 @@
+<div class="interests-item-wrap row">
+	<div class="container interests-row-wrap">
+		<div class="interests-icon-wrap col-md-3 col-lg-3 right" data-scroll-reveal="enter left 50px over 0.7s">
+				<img class="interests-icon" src="images/<%= icon %>">
+				<div class="interests-icon-overlay">
+					<div class="icon-name"><%= iconName %></div>
+					<div class="icon-author"><%= iconAuthor %></div>
+					<div class="icon-link"><a href="<%= authorLink %>" target="_blank"><span class="glyphicon glyphicon-link"></span>Flickr</a></div>
+				</div>
+		</div>
+		<div class="col-md-8 col-lg-8 interests-text-wrap"  data-scroll-reveal="enter right 100px, after 0.3s">
+			<div class="interests-name"><h2><%= name %></h2></div>
+			<div class="hr2"></div>
+			<div class="interests-description"><%= description %></div>
+		</div>
+	</div>
+</div>
+

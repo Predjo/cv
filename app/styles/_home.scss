@@ -1,0 +1,22 @@
+#main-container{
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+#main-view{
+	background-color: white;
+
+	#layout-wrap{
+		position: relative;
+	}
+
+	#middle-wrap{
+		background-color: white;
+	}
+
+	#main-content-wrap{
+		position: relative;
+	}
+}

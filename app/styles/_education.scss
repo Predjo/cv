@@ -1,0 +1,56 @@
+#education-section{
+	width: 100%;
+	background-color: #FAFAFA;
+	background: url('../images/oddTexture.png');
+	position: relative;
+	z-index: 5;
+	padding-bottom: 50px;
+
+	.education-item-list{
+			 	max-width: 1170px;
+	 	margin: 0 auto;
+	}
+
+	.education-item{
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-bottom: 25px;
+		width: 100%;
+		padding-right: 30px;
+		@include transform(translate3d(0,0,0));
+
+		.title{
+			margin-bottom: 10px;
+		}
+
+		.links{
+			font-size: 13px;
+			margin-top: 5px;
+		}
+
+		.time{
+			margin-top: 5px;
+			margin-left: 25px;
+		}
+
+		ul.project-list{
+			list-style-type:upper-roman;
+
+
+			li.project{
+				margin-bottom: 10px;
+
+
+				.project-description{
+					color: #777;
+					margin-top: 10px;
+
+					.project-name{
+						color: #333333;
+					}
+				}
+
+			}
+		}	
+	}
+}

@@ -1,0 +1,35 @@
+#career-section{
+	width: 100%;
+	background-color: white;
+	position: relative;
+	z-index: 5;
+	padding-bottom: 50px;
+
+	.career-item-list{
+	 	max-width: 1170px;
+	 	margin: 0 auto;
+	}
+
+	.career-item{
+		margin-bottom: 25px;
+		width: 100%;
+		margin-left: 0px;
+		margin-right: 0px;
+		@include transform(translate3d(0,0,0));
+
+		.description{
+			color: #777;
+		}
+
+		.time{
+			margin-top: 5px;
+			margin-left: 25px;
+		}
+
+		.links{
+			font-size: 13px;
+			margin-top: 5px;
+		}
+	}
+
+}

@@ -1,0 +1,62 @@
+[{
+	"name": "High school Lucijan Vranjanin",
+	"description": "",
+	"time": "2004 - 2008",
+	"website": "lucijanka.hr",
+	"websiteLink": "http://www.lucijanka.hr",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Trg+Hrvatskih+Pavlina/@45.8100696,15.8919016,17z/data=!4m5!1m2!2m1!1szagreb+croatia+gimnazija+lucijana+vranjanina!3m1!1s0x0:0x37a758327a3f0691",
+	"title": "High School Graduate",
+	"projects": [{
+		"name": "Graduation thesis",
+		"description": "Research work on the ways of harnessing nuclear energy. Reviewing diferent types of nuclear reactors and looking at future possibilities of building fusion reactors. Also discusing the posibility of cold fusion and some diferent uses for nuclear energy like atom and hydrogen bombs.",
+		"mentor": "Doc. dr. sc. Marko Stojić",
+		"mentorLink": "http://www.unin.hr/wp-content/uploads/marko_stojic.jpg"
+	}]
+
+}, {
+	"name": "Faculty of Electrical and Computer Engineering",
+	"description": "",
+	"time": "2008 - 2012",
+	"website": "fer.hr",
+	"websiteLink": "http://www.fer.hr",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Faculty+of+Electrical+Engineering+and+Computing/@45.8008585,15.9711438,17z/data=!3m1!4b1!4m2!3m1!1s0x4765d6f150cf2ccd:0x739e5c279fd98531",
+	"title": "Bachelors degree in Telecommunications and Informatics",
+	"projects": [{
+		"name": "Project",
+		"description": "Sign up website for eSTUDENT student organisation. High level PHP programming and web design. Including database management and email server management.",
+		"mentor": "Doc. dr. sc. Ivica Botički",
+		"mentorLink": "http://ivica.boticki.net/"
+	}, {
+		"name": "Bachelor thesis",
+		"description": "Central information system and social network for student organisation eSTUDENT. High level PHP programming including large amount of AJAX and web design. Including database management and email server management.",
+		"mentor": "Doc. dr. sc. Ivica Botički",
+		"mentorLink": "http://ivica.boticki.net/"
+	}]
+}, {
+	"name": "Faculty of Electrical and Computer Engineering",
+	"description": "",
+	"time": "2012 - 2014",
+	"website": "fer.hr",
+	"websiteLink": "http://www.fer.hr",
+	"location": "Zagreb, Croatia",
+	"locationLink": "https://www.google.hr/maps/place/Faculty+of+Electrical+Engineering+and+Computing/@45.8008585,15.9711438,17z/data=!3m1!4b1!4m2!3m1!1s0x4765d6f150cf2ccd:0x739e5c279fd98531",
+	"title": "Masters degree in Software Engineering and Information Systems",
+	"projects": [{
+		"name": "Seminar",
+		"description": "Mobile applications for Autistic children. General information about Autism and problems people with disabilities face every day. Review of iOS and Android applications that could enable easier communication for autistic children.",
+		"mentor": "Doc. dr. sc. Ivica Botički",
+		"mentorLink": "hhttp://ivica.boticki.net/"
+	}, {
+		"name": "Project",
+		"description": "Maintaining, debugging and adding new features for a program created for designing digital lectures. It required C# and GUI design knowledge.",
+		"mentor": "Doc. dr. sc. Ivica Botički",
+		"mentorLink": "http://ivica.boticki.net/"
+	}, {
+		"name": "Master thesis",
+		"description": "Complete design and implementation of software solution for designing, publishing and using digital lectures intended to be used in work with Autistic children. This included Web based designer of digital lectures created with modern web technologies as a single page web application, Java based backend application using REST framework formanagement of lectures, users and resources, and a mobile application built using webtechnologies and packed with PhoneGap for Android. It also included working closely withexperts form Autism centre in Zagreb to get their feedback that proved to be invaluable in thedevelopment process.",
+		"mentor": "Doc. dr. sc. Ivica Botički",
+		"mentorLink": "http://ivica.boticki.net/"
+	}]
+}]

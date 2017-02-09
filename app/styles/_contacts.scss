@@ -1,0 +1,129 @@
+#contacts-section{
+	width: 100%;
+	min-height: 600px;
+	background-color: gray;
+	background-image: url('../images/contactsBackTexture.png');
+	background-repeat: repeat;
+	color: rgb(236, 236, 236);
+	border-top: 1px solid #eee;
+	position: relative;
+	z-index: 5;
+
+
+}
+
+.mandrill-wrap{
+	.mandrill-text{
+		text-align: center;
+		margin-top: -20px;
+		opacity: 0.8;
+	}
+
+	.mandrill-show-btn{
+		height: 25px;
+		font-size: 10px;
+		opacity: 1;
+	}
+}
+.contact-links-wrap{
+	max-width: 670px;
+	margin: 0 auto;
+	overflow: auto;
+	position: relative;
+	padding-left: 50px;
+	padding-right: 50px;
+
+	.contact-info{
+		overflow: auto;
+		cursor: pointer;
+		float: left;
+		width: 285px;
+		padding-bottom: 10px;
+
+		.contact-link{
+			opacity: 0.8;
+			float: left;
+			margin-left: 10px;
+			font-size: 15px;
+			margin-top: 11px;
+
+			&.gmail{
+				unicode-bidi: bidi-override;
+				direction: rtl;
+			}
+
+			a{
+				color: rgb(236, 236, 236);
+				&:hover{
+					color: rgb(236, 236, 236);
+				}
+			}
+		}
+
+		.contact-icon {
+			height: 48px;
+			width: 48px;
+			background-image: url('../images/contactIcons.png');
+			background-repeat: no-repeat;
+			opacity: 0.9;
+			float: left;
+
+			&.linkedin{
+				background-position: 0px -48px; 
+			}
+
+			&.gmail{
+				background-position: 0px -240px; 
+			}
+
+			&.facebook{
+				background-position: 0px -144px; 
+			}
+
+			&.skype{
+				background-position: 0px -432px; 
+			}
+		}
+
+		&:hover{
+			.contact-link{
+				opacity: 1;
+			}
+			.contact-icon {
+				&.linkedin{
+					background-position: 0px 0px; 
+				}
+
+				&.gmail{
+					background-position: 0px -192px; 
+				}
+
+				&.facebook{
+					background-position: 0px -96px; 
+				}
+
+				&.skype{
+					background-position: 0px -384px; 
+				}
+			}
+		}
+	}
+}
+
+.mandrill-form-wrap{
+	max-width: 500px;
+	margin: 0 auto;
+	display: none;
+	position: relative;
+
+	.mandrill-message{
+		position: absolute;
+		bottom: 7px;
+		left: 150px;
+	}
+
+	.mandrill-loader{
+		display: none;
+	}
+}
+

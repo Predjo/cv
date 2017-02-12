@@ -233,7 +233,7 @@ module.exports = function(grunt) {
         exec: {
             scp_dist_to_server: {
                 cmd: function() {
-                    return 'scp -ri ~/.ssh/npCV.pem dist/* ubuntu@54.72.113.220:/var/lib/tomcat7/webapps/ROOT';
+                    return 'scp -ri ~/.ssh/npCV.pem dist/* ubuntu@54.72.113.220:/var/www/html/cv';
                 }
             }
         },

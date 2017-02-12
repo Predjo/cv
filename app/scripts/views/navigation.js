@@ -33,12 +33,14 @@ define([
         },
 
         onClick: function(event) {
-            event.preventDefault();
             var target = $(event.target).data('navigation');
-            var targetID = '#header-' + target;
-            $('html, body').animate({
-                scrollTop: $(targetID).offset().top - 50
-            }, 450);
+            if (target) {
+                event.preventDefault();
+                var targetID = '#header-' + target;
+                $('html, body').animate({
+                    scrollTop: $(targetID).offset().top - 50
+                }, 450);
+            }
         },
 
         onScroll: function() {

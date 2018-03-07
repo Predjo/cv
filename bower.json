@@ -11,7 +11,8 @@
     "modernizr": "~2.7.1",
     "marionette": "~2.0.1",
     "scrollreveal": "~3.3.2",
-    "mandrill-api": "~1.0.38"
+    "mandrill-api": "~1.0.38",
+    "marked": "0.3.17"
   },
   "devDependencies": {}
 }

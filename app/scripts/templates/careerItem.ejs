@@ -7,7 +7,7 @@
 	</div>
 	<div class="col-lg-8 col-md-8" data-scroll-reveal="enter bottom move 100px, after 0.3s">
 		<div class="title"><strong><%= name %></strong></div>
-		<div class="description"><%= description %></div>
+		<div class="description"><%= marked(description) %></div>
 
 		<div class="links">
 			<a href="<%= locationLink %>" target="_blank"><span class="glyphicon glyphicon-map-marker"></span>  <%= location %> </a> | 

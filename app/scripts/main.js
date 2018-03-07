@@ -10,9 +10,13 @@ require.config({
         marionette: {
             deps: ['jquery', 'underscore', 'backbone'],
             exports: 'Marionette'
+        },
+        marked: {
+            exports: 'marked'
         }
     },
     paths: {
+        marked: '../bower_components/marked/lib/marked',
         jquery: '../bower_components/jquery/dist/jquery',
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/underscore/underscore',

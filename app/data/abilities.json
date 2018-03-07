@@ -1,29 +1,25 @@
 [{
 	"category": "Programing languages",
 	"skills": [{
+		"name": "JavaScript",
+		"grade": 5,
+		"how": "every day use on multiple projects"
+	}, {
+		"name": "NodeJS",
+		"grade": 5,
+		"how": "multiple projects"
+	}, {
 		"name": "HTML",
 		"grade": 5,
-		"how": "basic course at the University, multiple web design projects and multiple student jobs"
+		"how": "every day use on multiple projects"
 	}, {
 		"name": "CSS",
 		"grade": 5,
-		"how": "basic course at the University, multiple web design projects and multiple student jobs"
-	}, {
-		"name": "JavaScript",
-		"grade": 5,
-		"how": "multiple web design projects and part of multiple student jobs"
-	}, {
-		"name": "JSON",
-		"grade": 5,
-		"how": "multiple web and University projects"
-	}, {
-		"name": "XML",
-		"grade": 5,
-		"how": "multiple projects at the University"
+		"how": "every day use on multiple projects"
 	}, {
 		"name": "PHP",
 		"grade": 5,
-		"how": "basic course at the University, multiple projects at the University)"
+		"how": "developing and maintaining professional Zend framework application"
 	}, {
 		"name": "SQL",
 		"grade": 5,
@@ -45,10 +41,6 @@
 		"grade": 3,
 		"how": "basic courses at the University"
 	}, {
-		"name": "Pascal",
-		"grade": 3,
-		"how": "basic courses at the High School"
-	}, {
 		"name": "C",
 		"grade": 3,
 		"how": "basic courses at the University"
@@ -61,51 +53,21 @@
 	"category": "Frameworks & Libraries",
 	"skills": [
 	{
-		"name": "React",
+		"name": "React + Redux",
 		"grade": 5,
 		"how": "everyday use"
-	},	
-	{
-		"name": "Flux",
-		"grade": 5,
-		"how": "everyday use"
-	},
-	{
-		"name": "jQuery",
-		"grade": 5,
-		"how": "almost every web development and design project"
 	}, {
-		"name": "jQuery UI",
-		"grade": 5,
-		"how": "most new web design projects"
-	}, {
-		"name": "Backbone & Marionette",
+		"name": "Backbone + Marionette",
 		"grade": 5,
 		"how": "most important part of Master Theises and this project"
-	}, {
-		"name": "Bootstrap",
-		"grade": 5,
-		"how": "almost every web development and design project"
 	}, {
 		"name": "AngularJS",
 		"grade": 3,
 		"how": "few basic online tutorials and practice projects"
-	}, {
-		"name": "SCSS",
-		"grade": 5,
-		"how": "everyday use"
 	}]
 }, {
 	"category": "Tools",
 	"skills": [{
-		"name": "Sublime Text",
-		"grade": 5,
-		"how": "everyday use, main scripting tool"
-	}, {
-		"name": "Eclipse",
-		"grade": 4,
-		"how": "used a lot for Java coding"
-	}, {
 		"name": "Photoshop",
 		"grade": 4,
 		"how": "lots of online tutorials and projects"
@@ -117,49 +79,6 @@
 		"name": "Blender",
 		"grade": 3,
 		"how": "multiple models for 3D game projects"
-	}, {
-		"name": "NetBeans",
-		"grade": 2,
-		"how": "few projects at the University"
-	}, {
-		"name": "Visual Studio",
-		"grade": 4,
-		"how": "in use with every C & C# project"
-	}, {
-		"name": "Notepad++",
-		"grade": 5,
-		"how": "everyday use"
-	}, {
-		"name": "Gimp",
-		"grade": 3,
-		"how": "used when Photoshop isn't avaliable"
-	}, {
-		"name": "Microsoft Office",
-		"grade": 5,
-		"how": "everyday use"
-	}, {
-		"name": "Git",
-		"grade": 5,
-		"how": "everyday use"
-	}]
-}, {
-	"category": "Operating systems",
-	"skills": [{
-		"name": "Android OS",
-		"grade": 4,
-		"how": "part of projects at the University and multiple student jobs"
-	}, {
-		"name": "Windows OS",
-		"grade": 5,
-		"how": "everyday use"
-	}, {
-		"name": "Linux OS",
-		"grade": 5,
-		"how": "everyday use"
-	}, {
-		"name": "Mac OS",
-		"grade": 4,
-		"how": "everyday use"
 	}]
 }, {
 	"category": "Languages",

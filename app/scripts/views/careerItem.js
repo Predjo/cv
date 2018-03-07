@@ -5,10 +5,10 @@ define([
     'underscore',
     'backbone',
     'templates',
-
+    'marked',
     //plugins
     'marionette'
-], function($, _, Backbone, JST) {
+], function($, _, Backbone, JST, marked) {
     'use strict';
 
     var CareerItemView = Backbone.Marionette.ItemView.extend({
@@ -27,7 +27,7 @@ define([
         },
 
         render: function() {
-            this.$el.html(this.template(this.model.toJSON()));
+            this.$el.html(this.template(Object.assign({ marked: marked }, this.model.attributes)));
         }
     });
 

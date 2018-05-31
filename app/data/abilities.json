@@ -95,31 +95,4 @@
 		"grade": 2,
 		"how": "basic understanding"
 	}]
-}, {
-	"category": "Other",
-	"skills": [{
-		"name": "Leadership",
-		"grade": 5,
-		"how": "a year as a leader of an IT team in eSTUDENT student organisation, responsible for 10 people, also as a leader of multiple project teams at the University of Zagreb"
-	}, {
-		"name": "Communication skills",
-		"grade": 5,
-		"how": "acquired by being a mentor and a guide for Erasmus students that came from foreign countries to Zagreb during last 3 years. Part of eSTUDENT student mentorship program"
-	}, {
-		"name": "Quick learner",
-		"grade": 5,
-		"how": "able to acquire programming skills pretty fast"
-	}, {
-		"name": "Teamwork",
-		"grade": 5,
-		"how": "acquired by doing multiple team projects at the University"
-	}, {
-		"name": "Working under pressure",
-		"grade": 5,
-		"how": "successfully finishing multiple university projects very close to deadline"
-	}, {
-		"name": "Public speaking",
-		"grade": 4,
-		"how": "honorary speaker at the Ericsson Summer Camp 2013 award ceremony"
-	}]
 }]

@@ -67,6 +67,7 @@
       background-repeat: no-repeat;
       opacity: 0.9;
       float: left;
+      position: relative;
 
       &.linkedin {
         background-position: 0px -48px;
@@ -82,6 +83,20 @@
 
       &.skype {
         background-position: 0px -432px;
+      }
+
+      &.github {
+        background-position: 0px -576px;
+
+        > img {
+          position: absolute;
+          height: 80%;
+          width: 80%;
+          top: 5px;
+          left: 5px;
+          filter: grayscale(100%);
+          opacity: 0.3;
+        }
       }
     }
 
@@ -105,6 +120,12 @@
 
         &.skype {
           background-position: 0px -384px;
+        }
+
+        &.github {
+          > img {
+            opacity: 1;
+          }
         }
       }
     }

@@ -9,7 +9,7 @@
 	"title": "High School Graduate",
 	"projects": [{
 		"name": "Graduation thesis",
-		"description": "Research work on the ways of harnessing nuclear energy. Reviewing diferent types of nuclear reactors and looking at future possibilities of building fusion reactors. Also discusing the posibility of cold fusion and some diferent uses for nuclear energy like atom and hydrogen bombs.",
+		"description": "Research work on the ways of harnessing nuclear energy. Reviewing different types of nuclear reactors and looking at future possibilities of building fusion reactors. Also discussing the possibility of cold fusion and some different uses for nuclear energy like atom and hydrogen bombs.",
 		"mentor": "Doc. dr. sc. Marko Stojić",
 		"mentorLink": "http://www.unin.hr/wp-content/uploads/marko_stojic.jpg"
 	}]
@@ -55,7 +55,7 @@
 		"mentorLink": "http://ivica.boticki.net/"
 	}, {
 		"name": "Master thesis",
-		"description": "Complete design and implementation of software solution for designing, publishing and using digital lectures intended to be used in work with Autistic children. This included Web based designer of digital lectures created with modern web technologies as a single page web application, Java based backend application using REST framework formanagement of lectures, users and resources, and a mobile application built using webtechnologies and packed with PhoneGap for Android. It also included working closely withexperts form Autism centre in Zagreb to get their feedback that proved to be invaluable in thedevelopment process.",
+		"description": "Complete design and implementation of software solution for designing, publishing and using digital lectures intended to be used in work with Autistic children. This included Web based designer of digital lectures created with modern web technologies as a single page web application, Java based backend application using REST framework form management of lectures, users and resources, and a mobile application built using web technologies and packed with PhoneGap for Android. It also included working closely with experts from Autism centre in Zagreb to get their feedback that proved to be invaluable in the development process.",
 		"mentor": "Doc. dr. sc. Ivica Botički",
 		"mentorLink": "http://ivica.boticki.net/"
 	}]
